@@ -10,4 +10,4 @@ category: Debugger
 publisher: Red Hat, Inc.
 firstPublicationDate: "2019-02-20"
 attributes:
-  containerImage: "vsvydenko/java8:test2"
+  containerImage: "eclipse/che-remote-plugin-runner-java8"
