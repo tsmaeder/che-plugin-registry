@@ -8,6 +8,7 @@ icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: Red Hat, Inc.
 repository: https://github.com/redhat-developer/vscode-java
 category: Language
+url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-yaml/0.3.0/vspackage
 firstPublicationDate: "2019-02-20"
 extensions:
   - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-yaml/0.3.0/vspackage
