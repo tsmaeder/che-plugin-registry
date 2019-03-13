@@ -5,9 +5,9 @@ name: Debugger for Java
 title: A lightweight Java debugger for Visual Studio Code
 description: A lightweight Java Debugger based on Java Debug Server which extends the Language Support for Java by Red Hat.
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-url: https://github.com/svor/che-plugin-registry/raw/java/plugins/org.eclipse.che.vscode-redhat.java/0.0.1/vscjava.vscode-java-debug-0.16.0.vsix
+url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-debug/0.17.0/vspackage
 category: Debugger
 publisher: Red Hat, Inc.
 firstPublicationDate: "2019-02-20"
 attributes:
-  containerImage: "vsvydenko/java8:test2"
+  containerImage: "eclipse/che-remote-plugin-runner-java8:nightly"
