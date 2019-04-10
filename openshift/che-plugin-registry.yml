@@ -83,7 +83,7 @@ objects:
       name: che-plugin-registry
 parameters:
 - name: IMAGE
-  value: eclipse/che-plugin-registry
+  value: tsmaeder/che-plugin-registry
   displayName: Eclipse Che plugin registry image
   description: Che plugin registry Docker image. Defaults to eclipse/che-plugin-registry
 - name: IMAGE_TAG
