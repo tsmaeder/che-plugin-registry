@@ -17,5 +17,5 @@ spec:
     name: vscode-node-debug
     memoryLimit: '512Mi'
   extensions:
-  - "http://open-vsx.org/api/ms-vscode/node-debug/1.44.2/file/ms-vscode.node-debug-1.44.1.vsix"
-  - "http://open-vsx.org/api/ms-vscode/node-debug2/1.33.0/file/ms-vscode.node-debug2-1.33.0.vsix"
+  - "https://open-vsx.org/api/ms-vscode/node-debug/1.44.1/file/ms-vscode.node-debug-1.44.1.vsix"
+  - "https://open-vsx.org/api/ms-vscode/node-debug2/1.33.0/file/ms-vscode.node-debug2-1.33.0.vsix"
