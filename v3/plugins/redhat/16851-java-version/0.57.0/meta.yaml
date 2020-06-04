@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2020-02-20"
 spec:
   initContainers:
-  - name: jdk_injector
+  - name: jdkinjector
     image: adoptopenjdk:11-jre-openj9
     command: ['sh', '-c', "echo starting && cp -R /opt/java/openjdk/ /tmp/jdk && echo done && sleep 20"]
     volumes:
