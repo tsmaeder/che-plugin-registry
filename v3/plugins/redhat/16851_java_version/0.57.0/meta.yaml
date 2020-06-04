@@ -1,0 +1,24 @@
+apiVersion: v2
+publisher: redhat
+name: 16851_java_version
+version: 0.57.0
+type: VS Code extension
+displayName: Language Support for Java 11
+title: Language Support for Java(TM) by Red Hat
+description: Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more...
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/redhat-developer/vscode-java
+category: Language
+firstPublicationDate: "2020-02-20"
+spec:
+  initContainers:
+  - name: jdk_injector
+    image: adoptopenjdk:11-jre-openj9
+    command: ['sh', '-c', "echo starting && cp -R /opt/java/openjdk/ /tmp/jdk && echo done && sleep 20"]
+    volumes:
+      - mountPath: "/tmp/jdk"
+        name: jdk
+        ephemeral: true
+  extensions:
+    - https://github.com/redhat-developer/vscode-xml/releases/download/0.11.0/redhat.vscode-xml-0.11.0.vsix
+   
