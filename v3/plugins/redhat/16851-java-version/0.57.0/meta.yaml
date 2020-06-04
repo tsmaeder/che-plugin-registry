@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: redhat
-name: 16851_java_version
+name: 16851-java-version
 version: 0.57.0
 type: VS Code extension
 displayName: Language Support for Java 11
