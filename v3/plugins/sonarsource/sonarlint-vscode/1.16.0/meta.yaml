@@ -17,4 +17,4 @@ spec:
       memoryLimit: "512Mi"
   extensions:
     - https://github.com/tsmaeder/che-plugin-registry/raw/16589_update_sonarlint/v3/plugins/sonarsource/sonarlint-vscode/1.16.0/sonarlint-vscode-1.16.0.vsix
-    - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.63.0-2222.vsix
+    
