@@ -21,4 +21,5 @@ spec:
   extensions:
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
     - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.63.0-2222.vsix
+    - https://github.com/tsmaeder/che-plugin-registry/blob/17025_update_java_extensions/v3/plugins/redhat/java/0.63.0/vscjava.vscode-java-test-0.24.0.vsix?raw=true
     
