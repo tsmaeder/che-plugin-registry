@@ -15,6 +15,10 @@ spec:
     - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
       name: vscode-java
       memoryLimit: "1500Mi"
+      commands:
+       - name: uname
+         workingDir: "$(project)"
+         command: ["uname", "-a"]
       volumes:
       - mountPath: "/home/theia/.m2"
         name: m2
