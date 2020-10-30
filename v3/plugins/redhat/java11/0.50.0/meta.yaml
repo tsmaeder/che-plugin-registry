@@ -20,7 +20,6 @@ spec:
         name: m2
       - mountPath: "/tmp/jdk
         name: jdk
-        ephemeral: true
   extensions:
     - https://github.com/microsoft/vscode-java-debug/releases/download/0.20.0/vscode-java-debug-0.20.0.vsix
     - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.50.0-1825.vsix
